@@ -243,9 +243,3 @@ git branch --merged main | grep -v "main" | xargs -r git branch -d
 ## Contributing
 
 Since this is a personal/team dev sandbox, feel free to open test pull requests, draft issues, or experiment with branches. Just delete temporary branches and close dummy PRs once your test is complete.
-
----
-
-## License
-
-Unlicensed / For internal development and testing purposes only.
