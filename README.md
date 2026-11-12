@@ -139,7 +139,6 @@ ForTestingSpecficApp/
 Even though **ForTestingSpecficApp** is a dummy repository, treat credential hygiene seriously:
 
 - Never commit real API keys, tokens, `.env` files, or private certificates.
-- Use fake placeholder values (e.g., `DUMMY_API_KEY=test_12345`) when testing secret parsing.
 - If testing GitHub Actions secrets, use dummy strings in repository settings rather than real credentials.
 - Add `.env` and local log files to `.gitignore` before pushing test files.
 
