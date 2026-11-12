@@ -43,13 +43,13 @@ Use this repository whenever you need a clean, disposable remote target to test:
 
 This repository is currently uninitialized and contains no application source code.
 
-| Area | Status | Details |
-| :--- | :--- | :--- |
-| **Application Code** | Empty | No `src/` or runnable entry points exist yet. |
-| **Dependencies** | None | No `package.json`, `pyproject.toml`, `go.mod`, or lockfiles. |
-| **CI/CD Pipelines** | Inactive | `.github/workflows/` has not been configured. |
-| **Branches** | `main` only | Default branch initialized with documentation only. |
-| **Releases / Tags** | None | Ready for tag and release workflow testing. |
+| Area                 | Status      | Details                                                      |
+| :------------------- | :---------- | :----------------------------------------------------------- |
+| **Application Code** | Empty       | No `src/` or runnable entry points exist yet.                |
+| **Dependencies**     | None        | No `package.json`, `pyproject.toml`, `go.mod`, or lockfiles. |
+| **CI/CD Pipelines**  | Inactive    | `.github/workflows/` has not been configured.                |
+| **Branches**         | `main` only | Default branch initialized with documentation only.          |
+| **Releases / Tags**  | None        | Ready for tag and release workflow testing.                  |
 
 ---
 
@@ -64,7 +64,7 @@ Before experimenting in this repository, verify your local developer toolchain:
 
 ### Optional Git Config for Testing
 
-If you are testing commits or automated scripts locally, ensure your Git identity is set:
+If you are testing commits or automated scripts locally, ensure your Git identity is set-
 
 ```bash
 git config user.name "Dev Tester"
@@ -145,6 +145,7 @@ Even though **ForTestingSpecficApp** is a dummy repository, treat credential hyg
 ---
 
 ## CI/CD & Automation Sandbox
+
 To test GitHub Actions without adding application code, create `.github/workflows/sandbox.yml`:
 
 ```yaml
@@ -152,7 +153,7 @@ name: Dev Sandbox Check
 
 on:
   push:
-    branches: [ "**" ]
+    branches: ["**"]
   pull_request:
   workflow_dispatch:
 
