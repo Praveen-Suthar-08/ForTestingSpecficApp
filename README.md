@@ -106,15 +106,6 @@ git commit --allow-empty -m "chore: trigger empty commit for webhook test"
 git push origin test/initial-sandbox
 ```
 
-### 4. Clean Up After Testing
-
-```bash
-git checkout main
-git branch -D test/initial-sandbox
-git push origin --delete test/initial-sandbox
-```
-
----
 
 ## Planned Folder Structure
 
