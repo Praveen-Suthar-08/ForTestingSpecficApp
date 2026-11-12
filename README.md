@@ -34,7 +34,6 @@ Use this repository whenever you need a clean, disposable remote target to test:
 - **Git & GitHub Operations:** Branch protection rules, rebase/merge conflicts, submodules, tags, and release drafting.
 - **CI/CD Runners:** GitHub Actions triggers, matrix builds, caching behavior, artifact uploads, and secret injection.
 - **Webhooks & Integrations:** Push events, pull request payloads, Slack/Discord bots, and issue automation.
-- **IDE & CLI Tooling:** GitHub CLI (`gh`), pre-commit hooks, linters, formatters, and dev containers.
 - **Dependency & Package Managers:** Lockfile generation, private registry auth, and monorepo workspace linking.
 - **AI / Code Review Bots:** Testing automated PR reviewers, code scanners, and documentation generators.
 
