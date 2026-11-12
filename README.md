@@ -2,8 +2,6 @@
 
 > **A developer-focused sandbox and empty repository template for testing Git workflows, CI/CD pipelines, webhooks, local tooling, and dev environment setups.**
 
----
-
 ## Table of Contents
 
 - [About This Repo](#about-this-repo)
