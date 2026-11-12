@@ -64,7 +64,7 @@ Before experimenting in this repository, verify your local developer toolchain:
 
 ### Optional Git Config for Testing
 
-If you are testing commits or automated scripts locally, ensure your Git identity is set:
+If you are testing commits or automated scripts locally, ensure your Git identity is set-
 
 ```bash
 git config user.name "Dev Tester"
