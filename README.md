@@ -23,7 +23,7 @@
 
 ## About This Repo
 
-**ForTestingSpecficApp** is intentionally an empty, non-production developer repository. It does not contain real business logic, production data, or live application code. Instead, it exists as a safe scratchpad for engineers to verify tools, test automation scripts, simulate repository events, and experiment with dev workflows without risking real codebases.
+**ForTestingSpecficApp** is intentionally an empty, non-production developer repository. It does not contain real business logic, production data, or live application code. Instead, it exists as a safe scratchpad for engineers to verify tools,  simulate repository events, and experiment with dev workflows without risking real codebases.
 
 ---
 
