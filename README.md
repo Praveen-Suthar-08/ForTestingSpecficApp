@@ -145,7 +145,6 @@ Even though **ForTestingSpecficApp** is a dummy repository, treat credential hyg
 ---
 
 ## CI/CD & Automation Sandbox
-
 To test GitHub Actions without adding application code, create `.github/workflows/sandbox.yml`:
 
 ```yaml
