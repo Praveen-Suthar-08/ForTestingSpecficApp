@@ -1,4 +1,4 @@
-# ForTestingSpecficApp!!!
+# ForTestingSpecficApp
 
 > **A developer-focused sandbox and empty repository template for testing Git workflows, CI/CD pipelines, webhooks, local tooling, and dev environment setups.**
 
